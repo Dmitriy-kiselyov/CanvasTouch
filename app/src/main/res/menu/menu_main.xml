@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.grafica.lab1.MainActivity">
+    <item
+        android:id="@+id/menu_reset"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_choose_graph"
+        android:title="@string/choose_graph"
+        app:showAsAction="ifRoom"/>
+</menu>
